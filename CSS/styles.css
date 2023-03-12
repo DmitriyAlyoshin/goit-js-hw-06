@@ -11,7 +11,9 @@ body {
   font-size: 20px;
   background-color: #fafafa;
   color: #000000;
+  font-weight: 500;  
   line-height: 1.5;
+  letter-spacing: 0.06em;
 }
 
 input {
@@ -27,12 +29,11 @@ button {
 .body__list {
   list-style: none;  
 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.25;
-  letter-spacing: 0.06em;
-
   text-transform: uppercase;  
+}
+
+.body__list--item {
+    margin-bottom: 20px;    
 }
 
 .gallery {
