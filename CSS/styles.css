@@ -11,7 +11,7 @@ body {
   font-size: 20px;
   background-color: #fafafa;
   color: #000000;
-  font-weight: 500;  
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.06em;
 }
@@ -23,35 +23,36 @@ input {
 
 button {
   padding: 8px 12px;
+  margin: 20px;
+
   cursor: pointer;
+  background-color: paleturquoise;
 }
 
 .body__list {
-  list-style: none;  
+  list-style: none;
 
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .body__list--item {
-    margin-bottom: 20px;    
+  margin-bottom: 20px;
 }
 
 .gallery {
-  display: flex;
-  padding-left: 0;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  justify-content: center;
+  column-gap: 30px;
   list-style: none;
 }
 
 .gallery__item {
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: inset -1px 3px 8px 5px #424446, 2px 5px 16px 0px #28292b,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 5px 10px 0px #456a8f, 0px 5px 10px 5px #1a3366,
+    5px 15px 5px 0px #356ddf;
 }
 
-.gallery__img {
-  display: block;
+.gallery__image {
   height: 100%;
-  width: 100%;
+  width: 320px;
 }
